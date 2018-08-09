@@ -1,0 +1,15 @@
+<form class="form" action="">
+  <input type="text" placeholder="add task">
+</form>
+
+<div class="task-list" *ngFor="let task of tasks">
+  <div class="check">
+    <input type="checkbox">
+  </div>
+  <div class="task-title">
+    {{task.title}}
+  </div>
+  <div class="button red">
+    <button>Delete</button>
+  </div>
+</div>

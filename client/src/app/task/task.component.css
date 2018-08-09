@@ -1,0 +1,25 @@
+.task-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 2rem
+}
+
+.form {
+  height: 6rem;
+  background-color: gray;
+}
+
+.form input {
+  width: 85%;
+  margin: 2rem;
+  padding: 5px;
+
+}
+
+.red button {
+  background-color: red;
+  border: none;
+  padding: 5px;
+}
